@@ -1,0 +1,10 @@
+LD R0, -B
+ST T1, R0
+LD R0, C
+MUL R0, D
+ST T2, R0
+LD R0, T1
+ADD R0, T2
+ST T3, R0
+LD R0, T3
+ST A, R0
